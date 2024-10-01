@@ -1,0 +1,603 @@
+
+.btn{
+   background-color: green;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+   background-color: white;
+}
+.tag{
+    display: flex;
+    justify-content: end;
+  
+    width: 100vw;
+}
+ul{
+    display: flex;
+
+    list-style-type: none;
+    justify-content: space-between;
+    
+}
+.con{
+    width: 100vw;
+}
+li{
+    justify-content: space-between;
+}
+a{
+    justify-content: space-between;
+    padding: 10px;
+
+   
+}
+i{
+    font-size: 30px;
+    background-color: white;
+}
+
+.card {
+    position: relative;
+    overflow: hidden; /* To contain the button overlay */
+}
+.card-img-top {
+    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+}
+.card:hover .card-img-top {
+    opacity: 0.7; /* Change opacity on hover */
+}
+.donate-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none; /* Initially hidden */
+}
+.card:hover .donate-button {
+    display: block; /* Show button on hover */
+}
+.btnn{
+    color: orangered;
+    outline: orangered;
+    background-color: none;
+}
+.we:hover{
+    background-color: orangered;
+    color: white;
+}
+.aa{
+    color: orangered;
+    text-decoration: none;
+}
+.aa:hover{
+    color: white;
+}
+.hm{
+    margin: auto;
+    width: 100px;
+    height: 1px;
+    background-color: orangered;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.hero-section .btn-group {
+    margin-top: 20px;
+}
+
+.hero-section .btn-outline-light {
+    border-color: orangered;
+    color: orangered;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.hero-section .btn-outline-light:hover {
+    background-color: orangered;
+    color: #fff;
+}
+
+.hero-section .divider {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: orangered;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.footer {
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h6 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+
+.footer h6::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: orangered;
+    margin-top: 5px;
+}
+
+.footer p,
+.footer a {
+    color: #ccc;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul {
+    display: block;
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0; /* Added to remove default margin */
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer .input-group .btn-outline-light {
+    border-color: orangered;
+    color: orangered;
+}
+
+.footer .input-group .btn-outline-light:hover {
+    background-color: orangered;
+    color: #fff;
+}
+
+.footer-bottom {
+    background-color: #181818;
+    padding: 20px 0;
+    text-align: center;
+    color: #777;
+}
+.containerrr1{
+  background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/main-image-1.jpg);
+  width: 100vw;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.qw{
+    padding: 30px;
+}
+.bo{
+    border: 2px solid white;
+    background-color: white;
+    outline: white;
+    color: black;
+    padding: 10px;
+    width: 200px;
+   position: relative;
+   bottom: 20px;
+   margin-left: 20px;
+}
+@media (max-width: 768px) {
+    /* Adjust heading font size and padding */
+    .qw {
+        font-size: 1.5rem;
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+
+    /* Adjust the 'bo' div size and position */
+    .bo {
+        width: 150px; /* Reduce the width */
+        padding: 8px; /* Reduce padding */
+        bottom: 10px; /* Adjust position */
+        margin-left: 10px; /* Adjust margin */
+    }
+
+    /* Adjust the background image size and position */
+    .containerrr1 {
+        background-position: center; /* Center the background image */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .qw {
+        font-size: 1.2rem; /* Smaller font size */
+        padding: 10px; /* Reduce padding */
+        text-align: center; /* Center align the text */
+    }
+
+    .bo {
+        width: 120px; /* Reduce width further */
+        padding: 5px; /* Reduce padding */
+        margin-left: 5px; /* Adjust margin */
+        text-align: center; /* Center align text inside the box */
+    }
+}
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #ff7f2a;
+    cursor: pointer;
+}
+
+.event-card {
+    border: none;
+    text-align: left;
+  }
+
+  .event-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .event-date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #FF7A00;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+
+  .carousel-indicators {
+    bottom: -30px;
+  }
+
+  .carousel-indicators li {
+    background-color: #FF7A00;
+  }
+
+  .card-body h5 {
+    font-weight: bold;
+  }
+
+  .btn-facebook {
+    background-color: #3b5998;
+    color: white;
+  }
+
+  .btn-facebook:hover {
+    background-color: #2d4373;
+    color: white;
+  }
+
+  /* Styling for the "More" and Facebook buttons */
+  .btn-outline-primary {
+    border-color: #FF7A00;
+    color: #FF7A00;
+  }
+
+  .btn-outline-primary:hover {
+    background-color: #FF7A00;
+    color: white;
+  }
+
+  h5:hover{
+    color: #ff7f2a;
+  }
+
+  button{
+    outline: #FF7A00;
+ 
+    color: #FF7A00;
+    border-color: #ff7f2a;
+  }
+
+  button:hover{
+    color: white;
+    background-color: #FF7A00;
+  }
+  i:hover{
+    background-color: white;
+    color: darkblue;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin: 20px;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%; /* Make the card width 100% for small screens */
+    }
+
+    img {
+        width: 100%; /* Ensure the image fits within the card */
+        height: auto;
+    }
+
+    .card-body {
+        text-align: center; /* Center align the text on smaller screens */
+    }
+
+    button {
+        width: 100%; /* Make button take full width */
+    }
+}
+
+/* Media query for extra small screens (like phones) */
+@media (max-width: 480px) {
+    .card {
+        width: 100%; /* Card takes full width */
+    }
+
+    img {
+        width: 100%; /* Ensure the image stays responsive */
+        height: auto;
+    }
+
+    .card-body {
+        padding: 10px; /* Reduce padding for extra small screens */
+    }
+
+    button {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+
+
+.post-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .author-img {
+    width: 40px;
+    height: 40px;
+  }
+  .author-info {
+    display: flex;
+    align-items: center;
+  }
+  .author-info span {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  .author-details {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+  }
+  .author-details i {
+    margin-right: 5px;
+  }
+  .post-content {
+    font-size: 16px;
+    color: #666;
+  }
+  .btn-read-more {
+    color: #FF6347;
+    font-weight: bold;
+    border: 1px solid #FF6347;
+  }
+
+
+  .post-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .author-img {
+    width: 40px;
+    height: 40px;
+  }
+  .author-info {
+    display: flex;
+    align-items: center;
+  }
+  .author-info span {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #888;
+  }
+  .author-details {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+  }
+  .author-details i {
+    margin-right: 5px;
+  }
+  .post-content {
+    font-size: 16px;
+    color: #666;
+  }
+  .btn-read-more {
+    color: #FF6347;
+    font-weight: bold;
+    border: 1px solid #FF6347;
+  }
+  /* Style for the video wrapper and play button */
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .video-wrapper video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .video-play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .video-play-button:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+
+  .quote-box {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.quote-text {
+    font-size: 20px;
+    font-style: italic;
+    color: #333;
+}
+.profile {
+    display: flex;
+    align-items: center;
+}
+.profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.profile-info {
+    display: inline-block;
+}
+.article-stats {
+    margin-top: 10px;
+    color: #888;
+}
+.article-content {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+.pagination-custom {
+    margin-top: 20px;
+}
+p:hover{
+  color: #FF6347;
+}
+h1:hover{
+  color: #FF6347;
+  
+}
+h2:hover{
+  color: #FF6347;
+}
+h3:hover{
+  color: #FF6347;
+}
+
+h4:hover{
+  color: #FF6347;
+}
+a:hover{
+  color: #FF6347;
+}
+li:hover{
+  color: #FF6347;
+}
+ul:hover{
+  color: #FF6347;
+}
+.container2:hover{
+
+  background-color: #FF6347;
+  color: white;
+}
+.container2{
+  color: gray;
+}
+.rt:hover{
+  color: white;}
+
+
+
+  @media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .con {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .tag {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    i {
+        font-size: 24px;
+    }
+
+    a {
+        padding: 8px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./assests/style.css">
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    
+
+    <!-- <nav class="navbar bg-rgb(38 38 38) " style="background-color: rgb(38 38 38);">
+        <div class="container-fluid">
+            <img src="https://www.envato.com/blog/static/market-dark-3ef8245238e66b6db75f652cbf23ffb2.png" alt="" width="230px" height="30px">
+          <form class="d-flex">
+            <button class="btn btn-outline-success text-white bg-green" type="submit">Buy Now</button>
+          </form>
+        </div>
+      </nav> -->
+      <nav class="navbar navbar-expand-lg" style="background-color: rgb(38, 38, 38);">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="https://www.envato.com/blog/static/market-dark-3ef8245238e66b6db75f652cbf23ffb2.png" alt="Logo" width="230px" height="30px">
+          </a>
+      
+          <!-- Toggler/collapsible Button for mobile devices -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color:white;"></span>
+          </button>
+      
+          <!-- Collapsible content (Buy Now button) -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <form class="d-flex ms-auto">
+              <button class="btn btn-outline-success text-white bg-green" type="submit">Buy Now</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+
+      <!-- //non responsive -->
+      <div class="main">
+        <div class="con">
+        <p><i class="bi bi-telephone-fill"></i> Call Us : <span> +1 514 000 0000 </span>
+        </p>
+        </div>
+        <div class="tag">
+            <ul>
+                <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                <li><a href=""><i class="bi bi-github"></i></a></li>
+                 <li><a href=""><i class="bi bi-linkedin"></i></a></li>
+                <li><a href=""><i class="bi bi-twitter"></i></a></li> 
+                <li><a href=""><i class="bi bi-google"></i></a></li>
+            </ul>
+        </div>
+      </div>
+
+      <!-- //third navbar  -->
+    
+     
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-3">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <span class="text-black fw-bold" style="font-size: 28px; font-style: italic;">Charity</span>
+                <span class="ms-2 text-muted" style="font-size: 18px;">Foundation</span>
+            </a>
+
+            <!-- Hamburger Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-4 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-black fw-semibold" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-semibold" href="aboutt.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-semibold" href="causes.html">CAUSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-semibold" href="events.html">EVENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-semibold" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-semibold" href="staff.html">STAFF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fw-semibold" href="contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+
+                <!-- Donate Button -->
+                <a href="#" class="btn btn-outline-danger fw-bold px-5 py-2">DONATE</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- //hero section  -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assests/images/Capture3.PNG" class="d-block w-100" alt="...">
+            
+          </div>
+          <div class="carousel-item">
+            <img src="./assests/images/Capture.PNG" class="d-block w-100" alt="...">
+           
+          </div>
+          <div class="carousel-item">
+            <img src="./assests/images/Capture3.PNG" class="d-block w-100" alt="...">
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+
+
+
+
+
+
+
+
+
+      <section class="py-5 text-center">
+        <div class="container">
+            <h2 class="text-uppercase fw-bold">Featured Causes</h2>
+            <p class="text-muted">Integer sit amet augue iaculis, ultricies justo nec, commodo nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+        </div>
+    
+        <!-- Carousel Start -->
+        <div id="carouselCauses" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <!-- Card 1 -->
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card text-center">
+                                <img src="https://media.istockphoto.com/id/863105740/photo/childrens-sports-team-charity-drive-for-donations-local-disaster-relief.jpg?s=612x612&w=0&k=20&c=FyCwE77TifwASnpyRS00B0xnS0fkiLVFSq-wZOWBe8I=
+                                " class="card-img-top" alt="Save Child Girls">
+                                <div class="donate-button">
+                                    <button class="btn btn-danger">Donate</button>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">SAVE THE CHILD GIRLS</h5>
+                                    <p class="card-text">Said without. Two. Appear itself herb creepth.</p>
+                                    <p><strong>$11,354.00</strong> / $24,700.00 <span class="text-danger">(62%)</span></p>
+                                    <div class="progress" style="height: 5px;">
+                                        <div class="progress-bar" style="width: 62%; background-color: #ffcc00;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card text-center">
+                                <img src="https://www.shutterstock.com/image-photo/food-donation-portrait-child-park-600nw-2256153685.jpg" class="card-img-top" alt="Build Homes">
+                                <div class="donate-button">
+                                    <button class="btn btn-danger">Donate</button>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">LETS BUILD SOME HOMES</h5>
+                                    <p class="card-text">Sea fith was grass seasons one rule.</p>
+                                    <p><strong>$56,354.00</strong> / $114,700.00 <span class="text-danger">(72%)</span></p>
+                                    <div class="progress" style="height: 5px;">
+                                        <div class="progress-bar" style="width: 72%; background-color: #ffcc00;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card text-center">
+                                <img src="https://c8.alamy.com/comp/2MTC1B7/volunteering-charity-food-and-team-with-child-for-sustainability-poverty-help-and-community-service-in-nature-group-of-happy-people-helping-in-2MTC1B7.jpg
+                                " class="card-img-top" alt="Help Childs for Education">
+                                <div class="donate-button">
+                                    <button class="btn btn-danger">Donate</button>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">HELP CHILDS FOR EDUCATION</h5>
+                                    <p class="card-text">Integer accumsan elit viv errara.</p>
+                                    <p><strong>$56,354.00</strong> / $114,700.00 <span class="text-danger">(72%)</span></p>
+                                    <div class="progress" style="height: 5px;">
+                                        <div class="progress-bar" style="width: 72%; background-color: #ffcc00;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <!-- Card 4 -->
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card text-center">
+                                <div class="position-relative">
+                                    <img src="https://t4.ftcdn.net/jpg/06/60/96/81/360_F_660968192_XArqRgie2sXgi0X8IfutbIh72pKXKdzE.jpg" class="card-img-top" alt="Give Foods">
+                                    <span class="badge bg-danger position-absolute top-0 end-0 m-2">URGENT</span>
+                                    <div class="donate-button">
+                                        <button class="btn btn-danger">Donate</button>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">GIVE THEM SOME FOODS</h5>
+                                    <p class="card-text">Second dominion saying one void beast.</p>
+                                    <p><strong>$56,354.00</strong> / $114,700.00 <span class="text-danger">(72%)</span></p>
+                                    <div class="progress" style="height: 5px;">
+                                        <div class="progress-bar" style="width: 72%; background-color: #ffcc00;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card text-center">
+                                <img src="https://d3mw6k1m1fi1qr.cloudfront.net/4YZbSr_rDQd9nrf-TGn5mwRqKrOByjLP25Qn2Q9ekWXL58fyQx_600.jpg
+                                " class="card-img-top" alt="Water Aid">
+                                <div class="donate-button">
+                                    <button class="btn btn-danger">Donate</button>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">PROVIDE WATER AID</h5>
+                                    <p class="card-text">Help provide clean drinking water.</p>
+                                    <p><strong>$7,500.00</strong> / $15,000.00 <span class="text-danger">(50%)</span></p>
+                                    <div class="progress" style="height: 5px;">
+                                        <div class="progress-bar" style="width: 50%; background-color: #ffcc00;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                 
+                        <!-- Card 6 -->
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card text-center">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfI9ChN1QDvBRbSa4b1gcvWI72pd_jQ1Bbr1wGKZBnV5RvcIAvfXtSpoi0woAb96N_08I&usqp=CAU
+                                " class="card-img-top" alt="Support Orphans">
+                                <div class="donate-button">
+                                    <button class="btn btn-danger">Donate</button>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">SUPPORT ORPHANS</h5>
+                                    <p class="card-text">Helping orphans have a brighter future.</p>
+                                    <p><strong>$12,000.00</strong> / $30,000.00 <span class="text-danger">(40%)</span></p>
+                                    <div class="progress" style="height: 5px;">
+                                        <div class="progress-bar" style="width: 40%; background-color: #ffcc00;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+    
+                
+                <!-- Add more slides as necessary for cards 7-10 -->
+            </div>
+    
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCauses" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCauses" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Carousel End -->
+    </section>
+
+
+
+
+    <!-- /////////////////////////////// -->
+
+     <div class="container my-5" style="background-color: #27262c; color: white;">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg ">
+                <img class="rounded-lg-3" src="./assests/hero.PNG" alt="" width="400" height="500px">
+            </div>
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h3 class="display">Sponsor This Entire Project</h3>
+            <h1 class="display fw-bold lh-1">Give Education To 100 Children</h1>
+            <p class="lead">Integer sit amet augue iaculis, ultricies justo nec, comm taciti sociosqu ad litora torquent. <br> <br>
+
+              <p>Nunc ullamcorper sollicitudin arcu, ut fermentum magna ultricies quis. Proin aliquet, est ut pellentesque malesuada, 
+                purus enim egestas nisl, eget mollis justo lorem facilisis orci. Sed in tristique nulla.</p>  </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <button type="button" class="we px-4 me-md-2 fw-bold py-2">Learn More</button>
+          or
+              <p class=" rt-lg px-4">
+                Email Us At <br>
+               <a class="aa" href="mailto:">info@charitytheme.com</a>  </p>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+
+
+
+       <!-- /////////////////////////////////  -->
+      <!-- <div class="row mb-3 text-center">
+        <div class="col-md-8 themed-grid-col">
+          <div class="pb-3">
+            .col-md-8
+          </div>
+          <div class="row">
+            <div class="col-md-6 themed-grid-col">.col-md-6</div>
+            <div class="col-md-6 themed-grid-col">.col-md-6</div>
+          </div>
+        </div>
+        <div class="col-md-4 themed-grid-col">.col-md-4</div>
+      </div> -->
+
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>FEATURED NEWS</h2>
+                <div id="featuredNewsCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assests/j1bmcn3l.png" class="d-block w-100" alt="Featured News 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>ORGANIZED FOOD CAMP FOR CHILDREN</h5>
+                                <p><span class="badge badge-warning">International</span> <span class="badge badge-secondary">May 7, 2018</span></p>
+                                <p>In over under beast seed He. Thing Second stars green there gathering living...</p>
+                            </div>
+                        </div>
+                        </div>
+                    <a class="carousel-control-prev" href="#featuredNewsCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#featuredNewsCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="mt-4">
+                    <h2>LATEST NEWS</h2>
+                    <ul class="list-unstyled">
+                        <li class="media mb-3">
+                            <img src="./assests/5jw44i39.png" class="mr-3" alt="Latest News 1">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">PIZZA TREAT GIVEN TO CHILDREN</h5>
+                                May 7, 2018
+                            </div> 
+                        </li> 
+                        <li class="media">
+                            <img src="./assests/images/f3lx5yyr.png" class="mr-3" alt="Latest News 2">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">DAY WITH CHILDS FROM AFRICA</h5>
+                                May 7, 2018
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>UPCOMING EVENT</h2>
+                <div class="card">
+                    <img src="./assests/li6ptzfd.png" class="card-img-top" alt="Upcoming Event">
+                    <div class="card-body">
+                        <h5 class="card-title">ORGANIZING MUSIC EVENT TO GET GOOD DONATION</h5>
+                        <p class="card-text">
+                            <span class="badge badge-light"><i class="fas fa-user"></i> Admin</span>
+                            <span class="badge badge-light"><i class="far fa-calendar-alt"></i> May 7, 2018 at 2:00 PM</span>
+                            <span class="badge badge-light"><i class="fas fa-map-marker-alt"></i> Montreal, QC.</span>
+                        </p>
+                        <p class="card-text">Donec varius ultrices purus. Nullam sit amet sapien tortor. Aenean tincidunt inte rdum felis, vel placerat purus porta nec.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+
+
+    <!-- //////////////////////////////////////////// -->
+   
+      <div class="container text-center my-4">
+        <h1 class="display-6 fw-bold">What Kids are Saying About Us</h1>
+        <div class="hm mx-auto my-3"></div>
+        <div class="col-lg-8 mx-auto">
+          <p class="lead mb-4">Our prime purpose in this life is to help people. <br>
+            And if you can't help them, at least don't hurt them.</p>
+        </div>
+      </div>
+     
+
+       <!-- Swiper -->
+  <div class="swiper mySwiper " style="background-color: #fa6f1c; height: 300px; padding: 20px;">
+    <div class="swiper-wrapper ">
+      <div data-hash="slide1" class="swiper-slide" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding: 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque a quis cumque rerum eius. Itaque modi eaque voluptatum <br> impedit sint ex quas facilis dolore perspiciatis? Velit, <br> amet a. Quidem, aspernatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur aspernatur illum atque magnam ducimus. Quisquam numquam cupiditate <br> nihil voluptatum consequatur facere aliquid adipisci eum.  <br>Animi voluptas nisi eveniet nemo tempora!
+<div class="hm"></div>
+<h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: bold; padding: 20px;">lim vertica wplook studeio </h2>
+      </div>
+      <div data-hash="slide2" class="swiper-slide" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cumque reiciendis, vero fugit unde accusantium aperiam architecto <br>, nisi, soluta nihil commodi praesentium sint ipsum quidem? <br> Tenetur eum sit culpa mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae id deleniti vero fuga debitis! Nobis quasi,  <br>neque voluptates adipisci veritatis voluptatem perspiciatis quaerat et nisi consequuntur, <br> vitae necessitatibus cupiditate quos?
+        <div class="hm"></div>
+        <h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: bold; padding: 20px;">lim vertica wplook studeio </h2>
+      </div>
+      <div data-hash="slide3" class="swiper-slide" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non enim laborum commodi labore, tempora aspernatur ab, velit <br> quaerat magnam expedita dolor odio nihil optio, repellat deleniti <br> ad est blanditiis eius! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum sint quasi blanditiis voluptatum, praesentium cum culpa distinctio. <br> Amet distinctio voluptates ipsum quas vero totam molestias in eos exercitationem. <br> Consequuntur, aperiam.
+        <div class="hm"></div>
+        <h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: bold; padding: 20px;">lim vertica wplook studeio </h2>
+      </div>
+      
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+  <!-- ////////////////////////////// -->
+
+
+    <!-- ////////////////////////////// -->
+  <section class="hero-section">
+    <div class="container">
+        <h1>CHANGE THEIR WORLD. CHANGE YOURS. THIS CHANGES EVERYTHING.</h1>
+        <div class="btn-group mt-4">
+            <button class="btn btn-outline-light">BECOME VOLUNTEER</button>
+            <div class="divider">OR</div>
+            <button class="btn btn-outline-light">DONATE FOR CAUSE</button>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row text-center text-md-start">
+            <div class="col-md-3 mb-4 mb-md-0">
+                <h6>ABOUT CHARITY</h6>
+                <p>Charity vitae diam pulvinar, tempus dia aliquam tellus. Quisque mattis odio eu placerat luctus. Vivamus magna elit, ultrices non lacinia vel, tempor vitae tellus.</p>
+            </div>
+            <div class="col-md-3 mb-4 mb-md-0">
+                <h6>QUICK LINKS</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#">Causes</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Gallery</a></li> 
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Legal Disclaimer</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 mb-4 mb-md-0">
+                <h6>NEWSLETTER SIGNUP</h6>
+                <p>Select your newsletters, enter your email address, and click "Subscribe"</p>
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Email Address">
+                    <button class="btn btn-outline-light">Go</button>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 mb-md-0">
+                <h6>CONTACT US</h6>
+                <p><strong>Address:</strong> 51 Sherbrooke W., Montreal, Quebec, Canada</p>
+                <p><strong>Phone:</strong> +1 514 000 0000</p>
+                <p><strong>Email:</strong> info@charitytheme.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="footer-bottom">
+    <div class="container">
+        <p class="mb-0">&copy; 2019. All Rights Reserved by Charity Theme. Designed by <a href="#" class="text-light text-decoration-none">WPLook Themes</a>.</p>
+    </div>
+</div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+ 
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      hashNavigation: {
+        watchState: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
+
