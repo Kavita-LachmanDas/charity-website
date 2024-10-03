@@ -376,6 +376,7 @@ i{
 @media (max-width: 480px) {
     .card {
         width: 100%; /* Card takes full width */
+       
     }
 
     img {
@@ -576,6 +577,8 @@ ul:hover{
     .main {
         flex-direction: column;
         align-items: center;
+       
+
     }
 
     .con {
@@ -599,5 +602,36 @@ ul:hover{
 
     p {
         font-size: 14px;
-    }
-}
+    }}
+
+
+
+
+
+    @media only screen and (max-width: 1200px) {
+      .container {
+          display: block;
+          align-items: center;
+          justify-content: center;
+          align-content: center;
+          flex-wrap: wrap;
+      }
+      .card {
+          width: 45%; /* 2 cards in a row on larger tablets */
+      }
+  }
+
+  @media only screen and (max-width: 768px) {
+      .card {
+          width: 100%; /* Full width for mobile devices */
+      }
+  }
+
+  @media only screen and (max-width: 576px) {
+      .card {
+          width: 100%; /* Stack the cards on smaller screens */
+      }
+      .container {
+          margin-top: 20px;
+      }
+  }
